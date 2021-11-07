@@ -1,0 +1,10 @@
+/* *{
+    box-sizing: border-box;
+} */
+#container{
+    border: 1px solid black;
+    margin:auto;
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row wrap;
+}
