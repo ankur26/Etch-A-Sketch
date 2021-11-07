@@ -1,6 +1,7 @@
-/* *{
-    box-sizing: border-box;
-} */
+*{
+    text-align: center;
+}
+
 #container{
     border: 1px solid black;
     margin:auto;
