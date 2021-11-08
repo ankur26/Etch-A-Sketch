@@ -14,7 +14,14 @@
     <div id="container">
     </div>
     <div id="options">
-        <button id="clear">Clear</button>
+        <div>
+            <h2 id="gridSize">Current grid size is 16 x 16 </h2>
+            <label for="myRange">Change grid size</label><input type="range" min="16" max="96" value="16" step="16" id="myRange">
+        </div>
+        <div>
+            <button id="gridToggle">Toggle Grid</button>
+            <button id="clear">Clear</button>
+        </div>
     </div>
     <script src="index.js"></script>
 </body>

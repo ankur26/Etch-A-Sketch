@@ -9,3 +9,9 @@
     justify-content: flex-start;
     flex-flow: row wrap;
 }
+#options{
+    margin: 50px auto;
+}
+#options div{
+    margin: 50px 0;
+}
