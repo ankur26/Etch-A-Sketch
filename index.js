@@ -13,7 +13,6 @@ let gridLine = 1;
 // console.log(container.style)
 container.style.width = `${32 * 16}px`;
 container.style.height = `${32 * 16}px`;
-clearButton.addEventListener('click',clear);
 
 function resetGrid(size){
     container.innerHTML = ''
@@ -59,10 +58,14 @@ function toggleGrid(){
         container.children[i].style.border= gridLine? '1px solid black' : '';
     }
 }
+
+
 range.addEventListener('input',(e)=>{
     resetGrid(parseInt(e.target.value));
 });
 
 gridToggle.addEventListener('click',toggleGrid);
+clearButton.addEventListener('click',clear);
+
 
 resetGrid(gridValue);
